@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add a Vehicle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>Add a Vehicle</h1>
+      <ul class="nav">
+        <li><a href="people.html">People search</a></li>
+        <li><a href="vehicle.html">Vehicle search</a></li>
+        <li><a href="add-vehicle.html">Add a vehicle</a></li>
+      </ul>
+    </header>
+
+    <aside>
+      <img src="images/output3.jpg" alt="Add vehicle" />
+    </aside>
+
+    <main>
+      <form id="vehicle-form">
+        <label for="rego">Registration:</label>
+        <input id="rego" type="text" />
+
+        <label for="make">Make:</label>
+        <input id="make" type="text" />
+
+        <label for="model">Model:</label>
+        <input id="model" type="text" />
+
+        <label for="colour">Colour:</label>
+        <input id="colour" type="text" />
+
+        <label for="owner">Owner name:</label>
+        <input id="owner" type="text" />
+
+        <button type="button" id="check-owner" disabled>Check owner</button>
+      </form>
+
+      <div id="owner-results"></div>
+      <div id="message-owner"></div>
+      <div id="message-vehicle"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 COMP1004</p>
+    </footer>
+  </div>
+  <script type="module" src="add-vehicle.js"></script>
+</body>
+</html>

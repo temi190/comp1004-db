@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>People Search</h1>
+      <ul class="nav">
+        <li><a href="people.html">People search</a></li>
+        <li><a href="vehicle.html">Vehicle search</a></li>
+        <li><a href="add-vehicle.html">Add a vehicle</a></li>
+      </ul>
+    </header>
+
+    <aside>
+      <img src="images/output.jpg" alt="Search illustration">
+    </aside>
+
+    <main>
+      <form id="people-form">
+        <label for="name">Name:</label>
+        <input id="name" type="text">
+
+        <label for="license">License Number:</label>
+        <input id="license" type="text">
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="message"></div>
+      <div id="results"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 COMP1004</p>
+    </footer>
+  </div>
+
+  <script type="module" src="people.js"></script>
+</body>
+</html>

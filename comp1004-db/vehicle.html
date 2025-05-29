@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vehicle Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>Vehicle Search</h1>
+      <ul class="nav">
+        <li><a href="people.html">People search</a></li>
+        <li><a href="vehicle.html">Vehicle search</a></li>
+        <li><a href="add-vehicle.html">Add a vehicle</a></li>
+      </ul>
+    </header>
+
+    <aside>
+      <img src="images/output2.jpg" alt="Car image" />
+    </aside>
+
+    <main>
+      <form id="vehicle-form">
+        <label for="rego">Registration number:</label>
+        <input id="rego" type="text" />
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="message"></div>
+      <div id="results"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 COMP1004</p>
+    </footer>
+  </div>
+  <script type="module" src="vehicle.js"></script>
+</body>
+</html>
